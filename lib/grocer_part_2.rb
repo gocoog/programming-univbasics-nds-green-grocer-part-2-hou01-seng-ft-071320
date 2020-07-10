@@ -5,7 +5,7 @@ def apply_coupons(cart, coupons)
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
-  binding.pry
+
   coupons.each do |i|
     index = 0 
     while index < coupons.length
@@ -25,7 +25,7 @@ def apply_coupons(cart, coupons)
       index += 1
     end
   end
-
+  binding.pry
   cart
 end
 
