@@ -5,7 +5,7 @@ def apply_coupons(cart, coupons)
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
-  binding.pry
+
   coupons.each do |i|
     index = 0 
     while index < coupons.length
@@ -16,7 +16,7 @@ def apply_coupons(cart, coupons)
           diff = j[:count] - i[:num]
           if diff < 1 
             j[:count] = 0
-            cart.shift()
+            # cart.shift()
           elsif diff == 1
             j[:count] = modulus
           end
