@@ -18,7 +18,7 @@ def apply_coupons(cart, coupons)
             j[:count] = 0
             # cart.shift()
           elsif diff == 1
-            j[:count] = modulus
+            j[:count] = diff
           end
         end
       end
