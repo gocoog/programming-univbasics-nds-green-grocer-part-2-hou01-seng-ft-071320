@@ -23,7 +23,6 @@ def apply_coupons(cart, coupons)
       index += 1
     end
   end
-  binding.pry
 end
 
 def apply_clearance(cart)
